@@ -1,0 +1,172 @@
+
+<!-- index.html -->
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KosmetiQ — E-commerce Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+  <img src="KozmetikaGjermane.png" alt="Kozmetika Gjermane" class="logo-img">
+</a>
+
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="#">Products</a>
+        <a href="#">Sales</a>
+        <a href="#">Contacts</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Produkte natyrale për bukurinë tënde</h1>
+          <p>Zbuloni koleksionin tonë ekskluziv të kremrave dhe ngjyrave me përbërës natyralë.</p>
+          <a class="btn primary" href="#products">Shiko produktet</a>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <!-- Placeholder image -->
+          <img src=home.jpg alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="products section">
+      <div class="container">
+        <h2 class="section-title">Produktet tona</h2>
+        <p class="section-sub">Zgjidh mes kremrave, serumave dhe paletave të ngjyrave.</p>
+
+        <div class="product-grid">
+          <!-- Product Card 1 -->
+          <article class="product-card">
+            <img class="product-img" src="https://images.unsplash.com/photo-1591814473574-1ce8f7c9f2d8?q=80&w=700&auto=format&fit=crop&crop=faces" alt="Krem hidratues">
+            <div class="product-body">
+              <h3 class="product-title">Krem Hidratues</h3>
+              <p class="product-desc">Hidratim i thellë pa yndyrë, ideal për çdo lloj lëkure.</p>
+              <div class="product-meta">
+                <span class="price">€24.00</span>
+                <a class="btn small" href="#">Shto në karrocë</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="product-card">
+            <img class="product-img" src="https://images.unsplash.com/photo-1580224271020-5b2b9f7b2f2a?q=80&w=700&auto=format&fit=crop&crop=faces" alt="Serum natyral">
+            <div class="product-body">
+              <h3 class="product-title">Serum Natyral</h3>
+              <p class="product-desc">Përmirëson elasticitetin dhe shkëlqimin e lëkurës.</p>
+              <div class="product-meta">
+                <span class="price">€32.00</span>
+                <a class="btn small" href="#">Shto në karrocë</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="product-card">
+            <img class="product-img" src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=700&auto=format&fit=crop&crop=faces" alt="Paletë ngjyrash">
+            <div class="product-body">
+              <h3 class="product-title">Paletë Ngjyrash</h3>
+              <p class="product-desc">Ngjyra të qëndrueshme me pigmente të pasura.</p>
+              <div class="product-meta">
+                <span class="price">€18.00</span>
+                <a class="btn small" href="#">Shto në karrocë</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product Card 4 -->
+          <article class="product-card">
+            <img class="product-img" src="https://images.unsplash.com/photo-1600180758890-8a7c7b2bb7a1?q=80&w=700&auto=format&fit=crop&crop=faces" alt="Maskë fytyre">
+            <div class="product-body">
+              <h3 class="product-title">Maskë Fytyre</h3>
+              <p class="product-desc">Pastron në thellësi dhe rigjeneron lëkurën.</p>
+              <div class="product-meta">
+                <span class="price">€12.00</span>
+                <a class="btn small" href="#">Shto në karrocë</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section">
+      <div class="container about-grid">
+        <div>
+          <h2>Rreth markës</h2>
+          <p>Ne besojmë te përbërësit natyralë dhe prodhimi i qëndrueshëm. Secili produkt testohet për siguri dhe efikasitet.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>100+</strong>
+            <span>Produkte</span>
+          </div>
+          <div class="stat">
+            <strong>10k+</strong>
+            <span>Klientë të kënaqur</span>
+          </div>
+          <div class="stat">
+            <strong>5</strong>
+            <span>Vite eksperiencë</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>KosmetiQ</h3>
+        <p>Produkte natyrale për kujdesin e lëkurës.</p>
+      </div>
+      <div>
+        <h4>Ndihmë</h4>
+        <ul>
+          <li><a href="#">Pagesa</a></li>
+          <li><a href="#">Dorëzimi</a></li>
+          <li><a href="#">Kthime</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakti</h4>
+        <p>email@example.com</p>
+        <p>+383 44 123 456</p>
+      </div>
+    </div>
+    <div class="copyright">© 2025 KosmetiQ</div>
+  </footer>
+
+  <script>
+    // Simple mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+    navToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+      navToggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
